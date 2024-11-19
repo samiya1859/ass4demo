@@ -1,0 +1,68 @@
+.gallerySection {
+    padding: 20px;
+    padding-top: 100px;
+    
+}
+
+.galleryHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split into two halves */
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.mainImage {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+
+.sideImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 10px; /* Space between the images */
+    /* margin-top: 10px; */
+}
+
+.sideImage {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    height: 220px;
+}
+
+.overlayButtonSm {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr; /* Stack the images in a single column */
+    }
+
+    .sideImages {
+        display: none; /* Hide side images on small screens */
+    }
+
+    .mainImage {
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+    }
+}

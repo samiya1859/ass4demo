@@ -37,8 +37,9 @@ const Navbar: React.FC = () => {
           <a href="#" onClick={openLocationModal}>
             <i className="ri-global-line"></i> <span id="selectedRegion"></span>
           </a>
+          <a href="/">Home</a>
           <a href="#">Trip Boards</a>
-          <a href="#">List your property</a>
+          <a href="/allHotels">All Hotels</a>
           <a href="#">Help</a>
           <a href="#">My trips</a>
           <a href="#" className={styles.signIn}>
