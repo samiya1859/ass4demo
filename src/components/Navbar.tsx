@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
           </a>
           <a href="/">Home</a>
           <a href="#">Trip Boards</a>
-          <a href="/allHotels">All Hotels</a>
+          <a href="/Hotels">All Hotels</a>
           <a href="#">Help</a>
           <a href="#">My trips</a>
           <a href="#" className={styles.signIn}>

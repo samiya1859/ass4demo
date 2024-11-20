@@ -1,0 +1,122 @@
+/* House Rules Part */
+.houseRules {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .ruleItem {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .ruleContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .ruleTitle {
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .ruleDescription {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive House Rules */
+  @media (max-width: 767px) {
+    .houseRulesPart h2 {
+      font-size: 1.3em;
+    }
+    .houseRulesPart .houseRules .ruleContent span {
+      font-size: 15px;
+      font-weight: 700;
+    }
+  }
+  
+  /* Credential Headings */
+  .credentialHeading {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Damage and Incidentals */
+  .damagePart p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Cancellation */
+  .timelineContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 1rem 0;
+  }
+  
+  .line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #ccc;
+    z-index: 1;
+  }
+  
+  .circle {
+    position: relative;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.75rem;
+  }
+  
+  .label {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .refundText span {
+    display: inline-block;
+    margin-right: 1rem;
+    font-weight: 600;
+  }
+  
+  /* Important Information */
+  .info ul {
+    padding-left: 20px;
+    list-style: disc;
+    color: #555;
+  }
+  
+  .info ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* FAQ */
+  .faqItem button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

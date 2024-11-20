@@ -1,0 +1,111 @@
+/* Room description section */
+
+/* Flex layout for Bedrooms */
+.roomDescription {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .descriptionContainer {
+    padding: 20px;
+  }
+  
+  .roomDescription h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .roomDescription h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .roomDescription h3 {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  /* Scoped hr */
+  .hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Flex layout for Bedrooms */
+  .bedroomNum {
+    display: flex;
+    justify-content: left;
+    gap: 70px;
+  }
+  
+  .bed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .bed img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .bed h3 {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  /* Space List */
+  .spaceNames {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .spaceNames li {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .spaceNames img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Link */
+  .descriptionContainer a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .descriptionContainer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Room description responsive */
+  /* for mobile devices */
+  @media (max-width: 767px) {
+    .descriptionContainer h1 {
+      font-size: 1.5em;
+      margin-bottom: 8px;
+    }
+    .descriptionContainer h2 {
+      font-size: 1em;
+      color: #333;
+    }
+  
+    .bed h3 {
+      font-size: 0.8em;
+      color: #555;
+    }
+    .bed span {
+      font-size: 13px;
+    }
+  }
+  

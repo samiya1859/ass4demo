@@ -1,0 +1,44 @@
+/* The second nav section under the gallery section */
+.secondNav {
+    gap: 20px;
+    transition: all 3s ease;
+  }
+  
+  .leftLinks {
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid grey;
+    transition: border-color 3s ease; /* Only animates changes to border color */
+  }
+  
+  .leftLinks a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    transition: color 3s, border-bottom-color 0.3s; /* Transitions color and border-bottom color */
+  }
+  
+  .leftLinks a:hover {
+    color: rgb(24, 80, 49);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(5, 54, 42); /* Adds an underline effect on hover */
+  }
+  
+  /* Responsive styles for second nav */
+  /* For mobile */
+  @media (max-width: 767px) {
+    .leftLinks {
+      display: flex;
+      gap: 20px;
+      border-bottom: 2px solid grey;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .leftLinks a {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  

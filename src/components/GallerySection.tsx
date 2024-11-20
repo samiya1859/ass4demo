@@ -8,10 +8,10 @@ interface Image {
 
 const images: Image[] = [
   { url: "http://localhost:3001/images/1731997171500-2.jpg", alt: "Image 1" },
-  { url: "http://localhost:3001/images/1731997171500-2.jpg", alt: "Image 2" },
-  { url: "http://localhost:3001/images/1731997171500-2.jpg", alt: "Image 3" },
-  { url: "http://localhost:3001/images/1731997171500-2.jpg", alt: "Image 4" },
-  { url: "http://localhost:3001/images/1731997171500-2.jpg", alt: "Image 5" },
+  { url: "http://localhost:3001/images/1731998540891-1.jpg", alt: "Image 2" },
+  { url: "http://localhost:3001/images/1731999088773-4.jpg", alt: "Image 3" },
+  { url: "http://localhost:3001/images/1731999107374-7.jpg", alt: "Image 4" },
+  { url: "http://localhost:3001/images/1731999125186-9.jpg", alt: "Image 5" },
   { url: "http://localhost:3001/images/1731997171500-2.jpg", alt: "Image 6" },
   { url: "http://localhost:3001/images/1731997171500-2.jpg", alt: "Image 7" },
   { url: "http://localhost:3001/images/1731997171500-2.jpg", alt: "Image 7" },
